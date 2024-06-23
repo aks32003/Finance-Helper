@@ -1,0 +1,4 @@
+xdVY26A1p7996SrS
+
+First go to server and then do yarn dev
+then go to server and do the same
