@@ -1,0 +1,76 @@
+.auth-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .auth-container h1 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+  }
+  
+  .auth-container p {
+    font-size: 1.25rem;
+  }
+  
+  .auth-button {
+    margin: 0 10px;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  .btn-primary{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: #ffffff;
+    background-color: #00a6fb;
+  }
+  .btn-secondary{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: #ffffff;
+
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(135deg, #1c92d2, #f2fcfe); /* Add gradient background */
+    color: #000000;
+    text-align: center;
+    
+  }
+  
+  .hero-content {
+    max-width: 100%;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .hero-tagline {
+    font-size: 2rem;
+    margin-bottom: 60px;
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+    margin-bottom: 60px;
+  }
+  
