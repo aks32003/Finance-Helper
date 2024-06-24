@@ -6,8 +6,16 @@ import cors from "cors";
 const app: Express = express();
 const port = process.env.PORT || 3001;
 
+app.use(cors(
+  {
+    origin: ["https://finance-helper-chi.vercel.app"],
+    methods: ["POST","GET"],
+    credentials: true
+  }
+));
+
 app.use(express.json());
-app.use(cors());
+
 
 const mongoURI: string =
   "mongodb+srv://akashsingh32003:xdVY26A1p7996SrS@financetracker.s4rzira.mongodb.net/";
