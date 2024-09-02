@@ -18,6 +18,9 @@ mongoose
   .catch((err) => console.error("Failed to Connect to MongoDB:", err));
 
 app.use("/financial-record", financialRecordRouter);
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
 app.listen(port, () => {
   console.log(`Server Running on Port ${port}`);
