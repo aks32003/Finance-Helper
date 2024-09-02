@@ -6,7 +6,7 @@ import cors from "cors";
 const app: Express = express();
 const port = process.env.PORT || 3001;
 
-const allowedOrigins = ['https://financehelper.vercel.app/dashboard'];
+const allowedOrigins = ['https://financehelper.vercel.app'];
 
 app.use(cors({
   origin: function (origin, callback) {
