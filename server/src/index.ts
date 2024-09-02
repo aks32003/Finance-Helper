@@ -8,7 +8,7 @@ const port = process.env.PORT || 3001;
 
 app.use(cors(
   {
-    origin: ["https://finance-helper-chi.vercel.app"],
+    origin: ["https://financehelper.vercel.app"],
     methods: ["POST","GET"],
     credentials: true
   }
