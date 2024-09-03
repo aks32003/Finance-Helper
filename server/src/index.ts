@@ -9,8 +9,8 @@ const port = process.env.PORT || 3001;
 // CORS whitelist
 const whitelist = [
   'https://financehelper.vercel.app',
-  'https://another-allowed-origin.com',
-  // add other allowed origins here
+  'https://financehelper.vercel.app/dashboard',
+  'https://financehelper.vercel.app/auth'
 ];
 
 const corsOptions = {
