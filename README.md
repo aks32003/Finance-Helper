@@ -1,4 +1,5 @@
-# Finance Tracker
+# Finance Tracker financehelper.vercel.app
+
 
 Finance Tracker is a full-stack MERN (MongoDB, Express, React, Node.js) application designed for managing financial records. It includes authentication features for user login and signup, allowing users to securely store, update, and manage their financial data.
 
